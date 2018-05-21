@@ -1,0 +1,7 @@
+Neke komande u terminalu
+cd
+ls
+cat
+man
+mkdir
+rmdir

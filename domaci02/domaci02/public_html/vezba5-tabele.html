@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cubes School</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Milomir Dragović">
+        <meta name="description" content="QA kurs je koncipiran da pokrije...">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+
+    <body>
+        <div>
+            <h1>Vežba 5 - Tabele</h1>
+            <p>
+                Tabele (table tag) se koriste za tabelarni prikaz informacija tj. po redovima (tr tag) i ćelijama (td tag).<br>
+                Ono što se takođe dobija jeste automatsko dodeljivanje širine kolona u zavisnosti od sadržaja ćelije.<br>
+                Svaka tabela se sastoji iz zaglavlja (thead taga), tela (tbody taga) i futera (tfoot) taga.<br>
+                U zaglavlju, telu i futeru može se naći jedan ili više redova (tr tagova).<br>
+                Svaka ćelija može biti obična (td tag) ili ćelija koja označava kolonu ili red (th tag).<br>
+            </p>
+
+            <h2>Tabela sa zaglavljem</h2>
+            <!--
+                PRIMER 1
+
+                    Kreirati ispod jednu tabelu dimenzija 2 kolone x 18 redova, na osnovu teksta. Tabela prikazuje polaznike kursa po imenu i prezimenu.
+                    Prvi red treba da bude u zaglavlju tabele (thead tagu) i ćelije treba da označavaju nazive kolona (th tag) tj. Ime i Prezime.
+                    Ostali redovi trebaju da se nađu u telu tabele (tbody tag) svaki treba da ima dve ćelije, jednu za ime drugu za prezime.
+
+            -->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ime</th>
+                        <th>prezime</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>milos</th>
+                        <th>vasiljevic</th>
+                    </tr>
+                    <tr>
+                        <th>nevena</th>
+                        <th>ignjatovic</th>
+
+                    </tr>
+                    <tr>
+                        <th>sanja</th>
+                        <th>cvetkovic</th>
+
+                    </tr>
+                    <tr>
+                        <th>olivera</th>
+                        <th>vuksic</th>
+
+                    </tr>
+                    <tr>
+                        <th>zeljko</th>
+                        <th>stepanovic</th>
+
+                    </tr>
+                    <tr>
+                        <th>tijana</th>
+                        <th>trifunovic</th>
+
+                    </tr>
+                    <tr>
+                        <th>branislav</th>
+                        <th>radisic</th>
+
+                    </tr>
+                    <tr>
+                        <th>jelena</th>
+                        <th>jesic</th>
+
+                    </tr>
+                    <tr>
+                        <th>filip</th>
+                        <th>jovicic</th>
+
+                    </tr>
+                    <tr>
+                        <th>vladimir</th>
+                        <th>zdravkovic</th>
+
+                    </tr>
+                    <tr>
+                        <th>marija</th>
+                        <th>kovacic</th>
+                    </tr>
+                    <tr>
+                        <th>nebojsa</th>
+                        <th>nikolic</th>
+
+                    </tr>
+                    <tr>
+                        <th>milica</th>
+                        <th>subotic</th>
+                    </tr>
+                    <tr>
+                        <th>ivana</th>
+                        <th>vujic milic</th>
+                    </tr>
+                    <tr>
+                        <th>nebojsa</th>
+                        <th>milovic</th>
+
+                    </tr>
+                    <tr>
+                        <th>marko</th>
+                        <th>rajcic</th>
+
+                    </tr>
+                    <tr>
+                        <th>dragan</th>
+                        <th>korac</th>
+
+                    </tr>
+                    <tr>
+                        <th>biljana</th>
+                        <th>piscevic</th>
+
+                    </tr>
+                    Ime Prezime
+                    1. Miloš Vasiljević
+                    2. Nevena Ignjatović
+                    3. Sanja Cvetković
+                    4. Olivera Vuksić
+                    5. Željko Stepanović
+                    6. Tijana Trifunović
+                    8. Branislav Radišić
+                    9. Jelena Ješić
+                    10. Filip Jovičić
+                    11. Vladimir Zdravković
+                    12. Marija Kovačić
+                    14. Nebojša Nikolić
+                    17. Milica Subotić
+                    18. Ivana Vujić Milić
+                    19. Nebojša Milović
+                    20. Marko Rajčić
+                    21. Dragan Korać
+                    22. Biljana Piščević
+
+                <hr/>
+                <h2>Tabela bez zaglavlja</h2>
+                <!--
+                    PRIMER 2
+                        Kreirati jednu tabelu 3 kolone x 6 reda koja ce prikazati raspored sedenja polaznika na kursu, na osnovu datog teksta.
+                        24, 23   16, 15   8, 7
+                        22, 21   14, 13   6, 5
+                        20, 19   12, 11   4, 3
+                        18, 17   10,  9   2, 1
+                -->
+
+                <table border="1">
+                    <tr>
+                        <td>24,23</td>
+                        <td>16,15</td>
+                        <td>8,7</td>
+                    </tr>
+                    <tr>
+                        <td>22,21</td>
+                        <td>14,13</td>
+                        <td>6,5</td>
+
+                    </tr>
+                    <tr>
+                        <td>20,19</td>
+                        <td>12,11</td>
+                        <td>4,3</td>
+                    </tr>
+                    <tr>
+                        <td>18,17</td>
+                        <td>10,9</td>
+                        <td>2,1</td>
+
+                    </tr>
+                </table>
+
+
+        </div>
+    </body>
+</html>

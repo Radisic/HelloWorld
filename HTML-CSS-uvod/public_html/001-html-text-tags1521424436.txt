@@ -1,0 +1,63 @@
+1. Šta je to Internet
+Internet je globalna računarska mreža. Internet obezbeđuje da udaljeni računari međusobno komuniciraju.
+
+1.1 IP Adresa
+Svaki računar na Internetu poseduje IP adresu koju obezbeđuje ISP i koja ga jednoznačno određuje.
+Da bi komunicirali sa drugim računarom na Internetu neophodno je da znate njegovu IP adresu.
+IP adresa se predstavlja sa 4 broja u opsegu od 0 do 255 razdvojenim tačkom, na primer: 194.9.94.86
+
+1.2 Internet Domen
+Internet domen je tekstualna prezentacija IP adrese.
+IP adresa se teško piše i pamti, zato je neophodno da se ona označi na čoveku privatljiv način za šta upravo služe domeni.
+Primer jednog domena: office.cubes.rs
+Domeni su organizovani hijerarhijski, domen office.cubes.rs je poddomen domena cubes.rs.
+Domeni se registruju u sistemu imena domena eng. DNS - Domain Name System. Informacija o jednom domenu se nalazi na računaru na Internetu koji se naziva DNS server i koji pruža uslugu za razrešavanje IP adrese za koju je jedan domen vezan.
+
+
+2. Šta je to WWW
+WWW je skraćenica od World Wide Web i predstavlja sistem međusobno povezanog sadržaja (web sajtova) dostupnog na Internetu.
+Osnovni pojomovi u WWW su: web sajt, web browser, web server, HTTP, HTML, URL.
+
+2.1 Web sajt
+Web sajt predstavlja skup web sadržaja koji se nalaze na jednom domenu.
+
+2.2 Web browser
+Web browser predstavlja klijentski program pomoću kojeg se vrši pregled različitog web sadržaja (web stranice, slike, video sadržaj).
+
+2.3 Web server
+Web server je računar na Internetu na kome se fizički nalazi web sadržaj. Web browser komunicira sa web serverom i od njega dobija traženi sadržaj.
+Na jednom web serveru može se naziti sadržaj od više web sajtova tj. jedan web server može da "hostuje" više domena.
+
+2.4 HTTP
+HTTP je protokol po kome komuniciraju web browser (klijentski program) i web server (serverski program).
+HTTP je skraćenica od Hypertext Transfer Protocol.
+
+2.5 HTML
+HTML je tip tekstualnog dokumenta u kome se nalaze instrukcije koje izvršava web browser pomoću kojih vrši prikaz web sadržaja.
+U HTML dokumentu se definiše struktura web stranice.
+
+2.6 URL
+URL je skraćenica od Uniform resource locator.
+URL predstavlja putanju do web sadržaja (fajla) na Internetu.
+
+3. Korisni materijali
+
+3.1 Šema komunikacije između web brwsera i web servera
+http://www3.ntu.edu.sg/home/ehchua/programming/howto/images/HTTP_RequestResponseMessages.png
+
+3.2 Linkovi
+W3Schools HTML tutorijal http://www.w3schools.com/html/default.asp
+W3Schools HTML spisak tagova http://www.w3schools.com/tags/default.asp
+W3Schools CSS tutorijal http://www.w3schools.com/css/default.asp
+W3Schools CSS spisak atributa http://www.w3schools.com/cssref/default.asp
+
+3.3 Video
+https://www.youtube.com/watch?v=9hIQjrMHTv4
+https://www.youtube.com/watch?v=J8hzJxb0rpc
+https://www.youtube.com/watch?v=Dxcc6ycZ73M
+
+
+
+
+
+
